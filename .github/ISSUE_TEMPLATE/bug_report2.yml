@@ -24,13 +24,15 @@ body:
       label: "対象機種"
       description: "どの機種での事象ですか？（必須）"
       options:
+        - 不明
         - 機種1
         - 機種2
         - 機種3
         - 機種4
+      default: 0
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: version
     attributes:
       label: "コミットID／ブランチ／バージョン"
