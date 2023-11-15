@@ -1,19 +1,13 @@
-name: Bug report
+name: "バグ報告"
 description: "バグレポートの作成"
-title: "タイトル"
 labels: []
-assignees: []
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: textarea
     id: what-happened
     attributes:
       label: "発生事象"
       description: "発生した不具合の詳細を記載してください（必須）"
-      placeholder: "不具合の内容（必須）"
+      placeholder: "不具合の内容"
       value: "不具合の内容"
     validations:
       required: true
@@ -22,7 +16,7 @@ body:
     attributes:
       label: "再現方法"
       description: "再現性が確立できていたら、再現方法を記載してください（任意）"
-      placeholder: "再現方法（任意）"
+      placeholder: "再現方法"
       value: "不明"
     validations:
       required: false
@@ -30,7 +24,7 @@ body:
     id: target
     attributes:
       label: "対象機種"
-      description: "どの機種での事象ですか？"
+      description: "どの機種での事象ですか？（必須）"
       options:
         - 機種1
         - 機種2
