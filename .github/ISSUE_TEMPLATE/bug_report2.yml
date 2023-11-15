@@ -1,8 +1,8 @@
 name: Bug report2
-description: バグレポートの作成2
-title: ''
-labels: ''
-assignees: ''
+description: "バグレポートの作成2"
+title: "タイトル"
+labels: []
+assignees: []
 body:
   - type: markdown
     attributes:
