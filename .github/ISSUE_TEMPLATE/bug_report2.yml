@@ -32,6 +32,15 @@ body:
       default: 0
     validations:
       required: true
+  - type: textarea
+    id: target-desc
+    attributes:
+      label: "対象機種の詳細"
+      description: "対象機種の詳細を記載してください"
+      placeholder: "詳細"
+      render: text
+    validations:
+      required: false
   - type: input
     id: version
     attributes:
