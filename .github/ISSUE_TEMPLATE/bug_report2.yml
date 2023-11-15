@@ -12,18 +12,18 @@ body:
     id: what-happened
     attributes:
       label: "発生事象"
-      description: "発生した不具合の詳細を記載してください"
-      placeholder: "不具合の内容(必須)"
-      value: ""
+      description: "発生した不具合の詳細を記載してください（必須）"
+      placeholder: "不具合の内容（必須）"
+      value: "不具合の内容"
     validations:
       required: true
   - type: textarea
     id: how-to-reproduce
     attributes:
       label: "再現方法"
-      description: "再現性が確立できていたら、再現方法を記載してください"
+      description: "再現性が確立できていたら、再現方法を記載してください（任意）"
       placeholder: "再現方法（任意）"
-      value: ""
+      value: "不明"
     validations:
       required: false
   - type: dropdown
