@@ -28,7 +28,6 @@ body:
         - 機種2
         - 機種3
         - 機種4
-      default: 0
     validations:
       required: true
   - type: textarea
