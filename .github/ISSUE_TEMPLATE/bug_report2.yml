@@ -8,7 +8,6 @@ body:
       label: "発生事象"
       description: "発生した不具合の詳細を記載してください（必須）"
       placeholder: "不具合の内容"
-      value: "不具合の内容"
     validations:
       required: true
   - type: textarea
@@ -17,7 +16,6 @@ body:
       label: "再現方法"
       description: "再現性が確立できていたら、再現方法を記載してください（任意）"
       placeholder: "再現方法"
-      value: "不明"
     validations:
       required: false
   - type: dropdown
@@ -33,3 +31,11 @@ body:
       default: 0
     validations:
       required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: "コミットID／ブランチ／バージョン"
+      description: "対象のソフトが特定出来る情報を記載してください"
+      placeholder: "gitのコミットID/ブランチ 又は リリースバージョン"
+    validations:
+      required: false
